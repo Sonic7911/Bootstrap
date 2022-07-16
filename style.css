@@ -1,0 +1,99 @@
+#side-nav{
+    width: 250px;
+    height: 100vh;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+body
+{
+    padding-left: 250px;
+}
+/* .navbar{
+    display: flex !important;
+    flex-direction: column !important;
+    
+} */
+
+.img-profile{
+    border-radius: 100%;
+    border: 3px solid rgba(255,255,255,0.2)
+}
+
+.container-cc
+{
+    display: flex;
+    flex-direction: column;
+}
+#sideNav.navbar-nav
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .navbar-brand
+{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 50px;
+} */
+
+.section-content-container
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.subHeading
+{
+    margin-bottom: 20px;
+}
+
+.section-content
+{
+    width: 80%;
+}
+.education-level{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+}
+
+#skills{
+    margin-top: 500px ;
+}
+
+.language
+{
+    width: 500px;
+    margin: 20px;
+    
+    filter: grayscale(1); 
+    
+    transition: filter 0.5s;
+}
+
+.language:hover
+{
+    width: 500px;
+    margin: 20px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    filter: grayscale(0);
+}
+
+.languages
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#img{
+    border-radius:10px;
+}
